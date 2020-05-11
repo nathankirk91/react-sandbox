@@ -10,7 +10,14 @@ export default function App() {
         <h1> Tracking App </h1>
       </header>
       {FILES.map(file => (
-        <Card title={file.title} type={file.type} address={file.address} />
+        <Card
+          key={file._id}
+          title={file.title}
+          type={file.type}
+          address={file.address}
+          status={file.status}
+          settlementDate={file.settlementDate}
+        />
       ))}
     </div>
   );

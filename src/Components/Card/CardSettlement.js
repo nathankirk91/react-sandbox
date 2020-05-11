@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const CardProperty = styled.p`
+const CardSettlement = styled.p`
   display: flex;
   margin: 0;
   padding: 0.5rem 1rem;
@@ -8,4 +8,4 @@ const CardProperty = styled.p`
   text-align: left;
 `;
 
-export default CardProperty;
+export default CardSettlement;

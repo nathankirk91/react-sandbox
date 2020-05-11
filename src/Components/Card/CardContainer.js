@@ -8,6 +8,12 @@ const CardContainer = styled.div`
   border-color: #dddfe2;
   border-radius: 4px;
   box-shadow: 0px 1.5px rgba(1, 1, 1, 0.15);
+  :hover {
+    cursor: pointer;
+  }
+  :active {
+    background-color: #efefef;
+  }
 `;
 
 export default CardContainer;
