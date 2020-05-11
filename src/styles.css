@@ -1,4 +1,14 @@
+html {
+  height: 100%;
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
+  background-color: #e4ebf5;
+  height: 1000px;
+}
+
+.root {
+  height: 100%;
 }

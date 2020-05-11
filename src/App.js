@@ -1,13 +1,17 @@
 import React from "react";
 import "./styles.css";
-import FilterableProductTable from "./Components/FilterableProductTable";
+import Card from "./Components/Card/Card";
+import FILES from "./FILES";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-      <FilterableProductTable />
+      <header>
+        <h1> Tracking App </h1>
+      </header>
+      {FILES.map(file => (
+        <Card title={file.title} type={file.type} address={file.address} />
+      ))}
     </div>
   );
 }
