@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import ProductTable from "./ProductTable";
 import SearchBar from "./SearchBar";
 
-import PRODUCTS from "../PRODUCTS";
+import PRODUCTS from "../../PRODUCTS";
 
 const FilterableProductTable = props => {
   const [filterText, setFilterText] = useState("");
