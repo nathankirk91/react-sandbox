@@ -24,7 +24,7 @@ const Card = props => {
       </CardTitleRow>
       <CardSettlement>
         <b>Settlement Date: </b>
-        {props.settlementDate.getDate()}/{props.settlementDate.getMonth()}/
+        {props.settlementDate.getDate()}/{props.settlementDate.getMonth() + 1}/
         {props.settlementDate.getFullYear()}
       </CardSettlement>
       <CardProperty>{props.address}</CardProperty>
